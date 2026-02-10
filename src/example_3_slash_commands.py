@@ -50,4 +50,4 @@ async def say_command(ctx: discord.ApplicationContext):
     # class we made before so that the response will contain the UI element specified within it.
     await ctx.respond("Here are some buttons you can press:", view=MessageWithButtonsView())
 
-bot.run(os.getenv('COMPBOT_TOKEN'))
+bot.run(os.getenv('DISCORD_TOKEN'))

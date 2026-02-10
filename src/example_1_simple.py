@@ -24,4 +24,4 @@ async def on_message(message: discord.Message):
 # Here we have an environment variable called DISCORD_TOKEN storing
 # the token for the bot, you can replace this with something else
 # but I'd recommend keeping it external not having it hard-coded:
-bot.run(os.getenv('COMPBOT_TOKEN'))
+bot.run(os.getenv('DISCORD_TOKEN'))

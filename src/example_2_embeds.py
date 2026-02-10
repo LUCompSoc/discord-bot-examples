@@ -30,4 +30,4 @@ async def on_message(message: discord.Message):
         # You can pass the embed into message.channel.send or message.reply
         await message.reply(embed=embed)
 
-bot.run(os.getenv('COMPBOT_TOKEN'))
+bot.run(os.getenv('DISCORD_TOKEN'))
