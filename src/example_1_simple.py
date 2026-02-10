@@ -8,6 +8,12 @@ intents.message_content = True
 
 bot = discord.Bot(intents=intents)
 
+# Event listeners are defined by name, as well as the
+# bot.event decorator.
+
+# A list of all the event listeners you can use is here:
+# https://docs.pycord.dev/en/v2.7.0/api/events.html
+
 @bot.event
 async def on_ready():
     print(f"{bot.user} is ready and online!")
